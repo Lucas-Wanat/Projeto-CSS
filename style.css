@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;900&display=swap');
+    }
+body {
+    background-image: url(images/background-cascata.jpg);
+}
+.cabecalho {
+    background-color: #062e5c;
+    height: 25%;
+    color: white;
+}
+.titulo-cabecalho {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+}
+.nav p a {
+    color: rgb(221, 237, 255);
+    text-decoration: none;
+}
+.nav p a:hover {
+    color: rgb(121, 173, 233);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.conteudo {
+    height: 100%;
+    text-align: justify;
+    margin-top: 20%;
+    background-color: rgb(220, 220, 228);
+}
+.conteudo h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    width: 50%;
+    margin: auto;
+    padding-top: 2%;
+    text-align: center;
+}
+.conteudo p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    width: 50%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.divisor-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card {
+    width: 300px;
+    margin-left: 0.5%;
+    margin-bottom: 2%;
+    background-color: azure;
+}
+.card p{
+    width: 250px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 8%;
+    padding: 0;
+}
+.footer {
+    background-color: #062e5c;
+    height: auto;
+}
+.divisor-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+.topicos {
+    padding: 0px 10px 35px 35px;
+    justify-content: center;
+}
+
+.topicos h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.topicos ul {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 0;
+}
+.divisor-footer p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300; 
+    color: white;
+    width: 25%;
+    margin-left: 5%;
+}
+.desenvolvido {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 0px 10px 8px 8px;
+}
+.desenvolvido a {
+    color: rgb(0, 119, 255);
+    text-decoration: none;
+}
+.desenvolvido a:hover {
+    color: rgb(36, 138, 255);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.social {
+    align-content: center;
+    margin-bottom: 1%;
+    margin-left: 80%;
+}
+.social img {
+    width: 45px;
+    margin-left: 6%;
+}
+.social img:hover {
+    transform: scale(1.1);
+    transition: 200ms linear;
+}
